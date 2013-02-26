@@ -1,0 +1,277 @@
+/*
+ * Form Layout
+ */
+
+.ie7 .input[hidden] {
+	display:none;
+	margin:0;
+	position:absolute
+}
+
+label textarea {
+	margin-left:0!important;
+	margin:0!important
+}
+
+.ux-form label span,
+.ux-form fieldset.radio-check-list legend,
+.ux-form fieldset.jsf-radio-check-list legend,
+.ux-form fieldset.radio-check-list legend,
+.ux-form fieldset.multi-input legend,
+.ux-form fieldset.ux-single-check-box legend,
+.ux-form fieldset.multi-input legend {
+	color:#3D6683;
+	font-weight:700;
+	padding: 0 5px 0 0;
+	white-space:normal
+}
+
+.ux-form fieldset.radio-check-list legend,
+.ux-form fieldset.jsf-radio-check-list legend,
+.ux-form fieldset.radio-check-list legend,
+.ux-form fieldset.multi-input legend,
+.ux-form fieldset.ux-single-check-box legend,
+.ux-form fieldset.multi-input legend {
+	margin-bottom: 3px;
+}
+
+.ux-form label {
+	display:block;
+	margin-bottom:8px
+}
+
+.ux-form label span {
+	display:block
+}
+
+.ux-form label input,
+.ux-form label select,
+.ux-form label textarea {
+	display:block;
+	margin: 0
+}
+
+.ux-form abbr.required {
+	border:none;
+	font-size:inherit
+}
+
+.ie7 .ux-form abbr.required {
+	margin:-10px;
+	top:1px
+}
+
+.ux-form label.ux-date {
+	display:inline-block;
+	width:100%
+}
+
+.ux-form label.ux-date input {
+	display:inline-block;
+	float:left
+}
+
+.ux-form label img.ui-datepicker-trigger {
+	float:left;
+	top:7px
+}
+
+/***
+ * Normal Checkbox/Radio Button Lists 
+ ***/
+.ux-form fieldset.radio-check-list legend {
+	display:block;
+	padding-bottom:3px
+}
+
+.ux-form fieldset.radio-check-list span {
+	display:block;
+	margin-bottom:2px
+}
+
+.ux-form fieldset.radio-check-list span input {
+	float:left;
+	margin-left:0
+}
+
+.ux-form fieldset.radio-check-list span label {
+	display:inline-block;
+	margin: 0;
+}
+
+.ie7 .ux-form fieldset.radio-check-list span input {
+	margin:0 3px 0 0
+}
+
+.ie7 .ux-form fieldset.radio-check-list span label {
+	margin:2px 0 0
+}
+
+.ie7 .ux-form fieldset.radio-check-list {
+	margin-bottom:7px;
+	margin:-4px;
+	width:auto
+}
+
+.ie8 .ux-form fieldset.radio-check-list span label {
+	margin:3px 0 0
+}
+
+/***
+ * Long Label Support
+ ***/
+.ux-form fieldset.radio-check-list.option-label-wrap span label {
+	display:block;
+	width:90%
+}
+
+/***
+ * Single Check Box Overrides
+ ***/
+.ux-form fieldset.ux-single-check-box legend {
+	display:block;
+	padding-bottom:3px
+}
+
+.ux-form fieldset.ux-single-check-box span {
+	display:block;
+	margin-bottom:2px
+}
+
+.ux-form fieldset.ux-single-check-box span input {
+	float:left;
+	margin-left:0
+}
+
+.ux-form fieldset.ux-single-check-box span label {
+	display:inline-block;
+	padding: 3px;
+}
+
+.ie7 .ux-form fieldset.ux-single-check-box legend {
+	margin-left:-8px
+}
+
+.ie7 .ux-form fieldset.ux-single-check-box span input {
+	margin:0 3px 0 0
+}
+
+.ie7 .ux-form fieldset.ux-single-check-box span label {
+	margin:2px 0 0
+}
+
+.ie8 .ux-form fieldset.ux-single-check-box span label {
+	margin:3px 0 0
+}
+
+/***
+ * Long Label Support
+ ***/
+.ux-form fieldset.ux-single-check-box span label {
+	margin:-2px;
+	width:90%
+}
+
+.ie7 .ux-form fieldset.ux-single-check-box legend {
+	margin-left:-5px
+}
+
+.ie7 .ux-form fieldset.ux-single-check-box span label {
+	margin:1px
+}
+
+.ie8 .ux-form fieldset.ux-single-check-box span label {
+	margin:2px
+}
+
+/***
+ *  Multi-Text Box fields.
+ ***/
+.ux-form fieldset.multi-input {
+	margin-bottom:5px
+}
+
+.ie7 .ux-form fieldset.multi-input legend {
+	margin-left:-7px
+}
+
+.ux-form fieldset.multi-input div {
+	display:block;
+	margin-bottom:5px
+}
+
+.ie7 .ux-form fieldset.multi-input {
+	margin-bottom:7px
+}
+
+.ux-form fieldset.multi-input div label {
+	display:block;
+	float:left;
+	width:inherit
+}
+
+.ux-form fieldset.multi-input div span abbr.required {
+	display:block;
+	float:left;
+	font-size:inherit
+}
+
+.ux-form fieldset.multi-input div span.support-text {
+	display:block;
+	float:left;
+	padding:5px 5px 0
+}
+
+.ux-form fieldset.multi-input div span input {
+	display:block;
+	float:left
+}
+
+.ux-form fieldset.multi-input input.button {
+	margin: 0 0 0 5px
+}
+
+
+.ux-form span.ux-static-field {
+	display:block;
+	margin-bottom:5px
+}
+
+.ux-form span.ux-static-label {
+	display:block;
+	font-weight:700
+}
+
+.ux-form span.ux-static-value {
+	font-weight:400
+}
+
+.ie7 .ux-form span.ux-static-field {
+	margin-bottom:7px
+}
+
+/* Static overrides */
+.ux-form label.ux-static-field {
+	display:inline-block;
+	width:100%
+}
+
+/***
+ * Static Output
+ ***/
+.ux-static-output span.ux-static-output span.ux-static-label  {
+	float:left;
+	font-weight:700;
+	width:100%
+}
+
+/* Static Output Top */
+.ux-static-output span.ux-static-output {
+	display:inline-block;
+	padding-left:10px;
+	width:100%
+}
+
+.ux-static-output span.ux-static-output span.ux-static-value {
+	float:left
+}
